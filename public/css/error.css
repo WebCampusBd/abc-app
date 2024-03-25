@@ -1,0 +1,39 @@
+/* Resetting default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Main container styles */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Error message styles */
+h1 {
+  font-size: 24px;
+  text-align: center;
+  color: #ff0000; /* Red color for error messages */
+  padding: 20px;
+  background-color: #ffffff; /* White background for contrast */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+    padding: 10px;
+  }
+}

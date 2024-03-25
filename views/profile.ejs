@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC | Profile</title>
+    <link rel="stylesheet" href="css/profile.css" />
+  </head>
+  <body>
+    <main>
+      <div id="details">
+        <h2>Welcome <%= user.username %></h2>
+        <div id="info">
+          <h2>Your Information :</h2>
+          <h3>Id : <%= user._id %></h3>
+          <h3>Username : <%= user.username %></h3>
+          <h3>Email : <%= user.email %></h3>
+        </div>
+      </div>
+      <button id="setting-btn">Settings ▶</button>
+      <div id="settings">
+        <ul>
+          <li><a href="/update">Update Details</a></li>
+          <li><a href="/delete">Delete Account</a></li>
+          <li><a href="/logout">Logout</a></li>
+        </ul>
+      </div>
+    </main>
+
+    <script src="js/profile.js"></script>
+  </body>
+</html>

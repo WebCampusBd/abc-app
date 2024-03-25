@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC</title>
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <main>
+      <div id="box">
+        <form action="/login" method="post">
+          <div>
+            <input
+              type="username"
+              name="username"
+              id="username"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit">Login</button>
+          </div>
+        </form>
+        <a href="/register">Create New Account</a>
+      </div>
+    </main>
+    <footer>
+      <p>We using bcrypt for secure your data.</p>
+      <p>
+        &copy;All Rights Reserved 2024 by
+        <a href="https://ratulanjum.com">Ratul Anjum</a>
+      </p>
+    </footer>
+  </body>
+</html>

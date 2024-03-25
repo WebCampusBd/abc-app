@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC | Register</title>
+    <link rel="stylesheet" href="css/register.css" />
+  </head>
+  <body>
+    <main>
+      <div id="box">
+        <form action="/register" method="post">
+          <div>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Username"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+          <div>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="password"
+              required
+            />
+          </div>
+          <div>
+            <button type="submit">Create</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
